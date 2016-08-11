@@ -4,7 +4,7 @@ export ZSH=/home/jrs/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(git)
+plugins=(git docker)
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
