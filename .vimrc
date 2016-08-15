@@ -20,7 +20,8 @@ set incsearch
 imap jkl <Esc>
 " Backspace like other editors
 set backspace=indent,eol,start
-
+" Get rid of wrapping
+set nowrap
 
 " colorscheme
 colorscheme Tomorrow-Night
