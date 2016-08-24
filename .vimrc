@@ -23,6 +23,16 @@ set softtabstop=4
 set shiftwidth=4
 set autoindent
 
+" Easy buffer switching
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
+nnoremap <C-h> <C-w><C-h>
+
+" New buffers to the bottom right
+set splitbelow
+set splitright
+
 " Avoid the escape key reach
 imap jkl <Esc>
 " Backspace like other editors
