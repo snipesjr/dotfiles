@@ -40,9 +40,6 @@ set backspace=indent,eol,start
 " Get rid of wrapping
 set nowrap
 
-" colorscheme
-colorscheme Tomorrow-Night
-
 " vim-go
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
