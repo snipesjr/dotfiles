@@ -1,8 +1,3 @@
-" Like an idiot, I deleted my vimrc shortly after moving it
-" to my dotfiles folder. Restarting with the basics for now.
-
-execute pathogen#infect()
-
 syntax on
 filetype plugin indent on
 
